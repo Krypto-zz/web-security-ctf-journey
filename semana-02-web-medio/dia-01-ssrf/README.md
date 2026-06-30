@@ -10,25 +10,25 @@ SSRF ocurre cuando un atacante logra que el servidor realice peticiones hacia di
 
 En este laboratorio, la vulnerabilidad estaba en el parámetro `stockApi`, porque la aplicación tomaba una URL enviada por el usuario y el servidor hacía la petición hacia esa dirección.
 
-## 🧪 Laboratorio
+## Laboratorio
 
 - Plataforma: PortSwigger Web Security Academy
 - Laboratorio: Basic SSRF against the local server
 - Categoría: SSRF
 - Herramienta principal: Burp Suite
 
-## 🛠 Herramientas usadas
+## Herramientas usadas
 
 - Burp Suite
 - Burp Browser
 - PortSwigger Academy
 
-## ✅ Qué aprendí
+## Qué aprendí
 
-Aprendí que `localhost`, cuando es consultado por el servidor vulnerable, apunta al propio servidor y no a mi computadora.
+Aprendí que `localhost` o `127.0.0.1`, cuando es consultado por el servidor vulnerable, apunta al propio servidor porque es una direccion IP dedicada a loopback.
 
 También entendí que SSRF puede permitir acceder a recursos internos que normalmente no están expuestos desde internet.
 
-## ⚠️ Nota ética
+## Nota ética
 
 Este ejercicio fue realizado únicamente en un laboratorio legal y controlado de PortSwigger Academy.

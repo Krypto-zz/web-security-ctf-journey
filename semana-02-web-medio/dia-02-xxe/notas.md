@@ -1,5 +1,6 @@
-# Notas - Día 2 XXE Injection
-# Fecha: 01/07/2026
+## Notas - Día 2 XXE Injection
+## Fecha
+01/07/2026
 
 ## Objetivo del día
 
